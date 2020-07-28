@@ -1,0 +1,10 @@
+# yml配置文件语法
+## 1.key:value k-v结构 ":"；连接
+## 2.yml配置文件有层级关系
+## 3.yml配置文件注意缩进
+## 4.yml文件支持中文，内部编码是utf-8
+server:
+  port: 8090
+  #项目缺省值
+  servlet:
+    context-path: /
