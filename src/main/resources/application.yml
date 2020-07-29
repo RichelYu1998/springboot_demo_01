@@ -13,5 +13,5 @@ server:
 
 # 在配置文件中添加属性和属性值,为了防止重名发生,则添加前缀区分
 jdbc:
-  username: root
-  password: root
+  username: root用户名
+  password: root密码
