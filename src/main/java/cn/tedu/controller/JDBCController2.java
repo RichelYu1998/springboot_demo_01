@@ -1,6 +1,7 @@
 package cn.tedu.controller;
 
 
+import cn.tedu.pojo.User;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,6 +31,8 @@ public class JDBCController2 {
 
     @RequestMapping("/getMsgPrefix")
     public String GetMsgValue(){
+        User user = new User();
+        user.setName("aaa");
         return username+"|"+password;
     }
 }
